@@ -18,7 +18,7 @@ It’s designed for testing, learning and simulating production-like environment
 
 ## Technologies Used
 
-- **Host:** Windows 11
+- **Host:** Windows 11 (with WSL running Ansible)
 - **VMs:** Ubuntu 22.04 (via `ubuntu/jammy64` Vagrant box)
 - **Virtualization:** VirtualBox
 - **Provisioning:** Vagrant + Ansible
