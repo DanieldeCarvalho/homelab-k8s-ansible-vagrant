@@ -12,8 +12,8 @@ Vagrant.configure("2") do |config|
       node.vm.hostname = name
       node.vm.network "private_network", ip: ip
       node.vm.provider "virtualbox" do |vb|
-        vb.memory = 2048
-        vb.cpus = 2
+        vb.memory = 1028
+        vb.cpus = 1
       end
       node.vm.provision "shell", inline: <<-SHELL
         apt-get update
